@@ -2,11 +2,19 @@
 Script that extracting particular tables from the MySQL dump
 
 ## Usage
+
+Show "usage" tip
 ```
-$ php extractor.php = Show "usage" tip
+$ php extractor.php
+```
 
-$ php extractor.php dump.sql.gz --list = Show list of the tables in the dump
+Show list of the tables in the dump
+```
+$ php extractor.php dump.sql.gz --list
+```
 
-$ php extractor.php dump.sql.gz --extract table1 (table2..tableN) output.sql.gz = Extract tables to the "output.sql.gz" file
+Extract tables to the "output.sql.gz" file
+```
+$ php extractor.php dump.sql.gz --extract table1 (table2..tableN) output.sql.gz
 
 ```
