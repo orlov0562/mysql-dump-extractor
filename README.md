@@ -16,5 +16,4 @@ $ php extractor.php dump.sql.gz --list
 Extract tables to the "output.sql.gz" file
 ```
 $ php extractor.php dump.sql.gz --extract table1 (table2..tableN) output.sql.gz
-
 ```
