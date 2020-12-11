@@ -30,4 +30,4 @@ $ php extractor2.php dump.sql.gz --extract-except-data table1 (table2..tableN) o
 
 ## Notes
 
-The comand opptions could not be combined
+The comand opptions can't be combined
