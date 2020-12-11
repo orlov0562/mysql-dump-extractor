@@ -22,6 +22,7 @@ Recreate the dump without some tables
 ```
 $ php extractor2.php dump.sql.gz --extract-except table1 (table2..tableN) output.sql.gz
 
+```
 
 Recreate the dump without some data (eg INSERT instructions)
 ```
