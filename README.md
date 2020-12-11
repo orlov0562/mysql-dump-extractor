@@ -17,3 +17,10 @@ Extract tables to the "output.sql.gz" file
 ```
 $ php extractor.php dump.sql.gz --extract table1 (table2..tableN) output.sql.gz
 ```
+
+Recreate the dump without data (eg INSERT instructions)
+```
+$ php extractor2.php dump.sql.gz --extract-except-data table1 (table2..tableN) output.sql.gz
+```
+
+Note: The comand opptions could not be combined
